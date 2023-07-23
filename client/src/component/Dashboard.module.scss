@@ -1,0 +1,42 @@
+.tabHeader {
+  display: flex;
+  gap: 20px;
+}
+.tabHeaderItem {
+  display: flex;
+}
+.buttonCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+button {
+  height: 20px;
+}
+.tabProduct {
+  width: 100px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+.selectedTab {
+  background-color: aliceblue;
+}
+.itemProduct {
+  margin: 0;
+  padding: 0;
+  .rowProduct {
+    display: flex;
+    height: 60px;
+    .cellProduct {
+      width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: aliceblue;
+    }
+  }
+}
